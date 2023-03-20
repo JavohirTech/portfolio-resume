@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.asosiy{
+    margin: 0 auto;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_side{
+    width: 30%;
+}
+
+.left_text{
+    color: white;
+    background-color: rgb(39, 39, 39);
+    padding: 20% 10%;
+}
+
+.left_text h3{
+    text-transform: uppercase;
+    padding: 10% 0;
+}
+
+.left_text p{
+    color: rgb(124, 124, 124);
+}
+
+.left_text hr{
+    margin: 40px 0;
+}
+
+.left_text span{
+    display: block;
+    margin: 5px 0;
+}
+
+.left_text a{
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+}
+
+.skill_name{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill_name progress{
+    height: 1rem;
+    text-align: center;
+    color: white;
+    background-color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+progress::-moz-progress-bar { background: grey; }
+progress::-webkit-progress-value { background: grey; }
+
+/* end of left_side */
+
+.main_side{
+    overflow: hidden;
+    position: relative;
+    border: 3px solid #B1B1B1;
+    padding: 5%;
+    width: 70%;
+}
+
+.main_head span{
+    font-size: 90px;
+    display: block;
+}
+
+.main_head span:nth-child(1), .main_skills span{
+    background-color: black;
+    color: #fff;
+    display: inline;
+    padding: 0 30px;
+    font-weight: bold;
+}
+
+.head_line{
+    margin: 30px 0 0 0;
+}
+
+.main_skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main_skill_left{
+    padding: 20px;
+}
+
+.main_title{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: grey;
+}
+
+.main_interests{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.interest > *{
+    text-align: center;
+    display: block;
+}
+
+.interest i{
+    font-size: 50px;
+    padding: 10px;
+}
