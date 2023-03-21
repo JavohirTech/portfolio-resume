@@ -8,6 +8,8 @@
 }
 
 .asosiy{
+    overflow: hidden;
+    height: 100%;
     margin: 0 auto;
     width: 100%;
     padding: 5%;
@@ -15,13 +17,17 @@
     justify-content: space-between;
 }
 
+.main_head_center{
+    display: none;
+}
+
 .left_side{
+    background-color: rgb(39, 39, 39);
     width: 30%;
+    color: white;
 }
 
 .left_text{
-    color: white;
-    background-color: rgb(39, 39, 39);
     padding: 20% 10%;
 }
 
@@ -96,12 +102,13 @@ progress::-webkit-progress-value { background: grey; }
 
 .main_skills{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .main_skill_left{
-    padding: 20px;
+    width: 70%;
+    padding: 30px;
 }
 
 .main_title{
@@ -124,4 +131,125 @@ progress::-webkit-progress-value { background: grey; }
 .interest i{
     font-size: 50px;
     padding: 10px;
+}
+
+
+/* responsive start */
+
+@media screen and (max-width: 480px){
+    .asosiy{
+        flex-direction: column;
+    }
+    .left_side{
+        width: 100%;
+    }
+    .main_side{
+        width: 100%;
+    }
+    .main_head_center{
+        text-align: center;
+        font-size: 60px;
+        display: block;
+    }
+
+    .main_head_center span{
+        display: block;
+    }
+    
+    .main_head_center span:nth-child(1), .main_skills span{
+        background-color: black;
+        color: #fff;
+        display: inline;
+        padding: 0 30px;
+        font-weight: bold;
+    }
+
+    .main_head{
+        display: none;
+    }
+
+    .main_skill_left{
+        font-size: 70%;
+    }
+}
+
+/* iPads and Tablets – 481px — 768px  */
+@media screen and (min-width: 481px) and (max-width:768px){
+    body{
+        background-color: blue;
+    }
+    .asosiy{
+        flex-direction: column;
+    }
+    .left_side{
+        width: 100%;
+    }
+    .main_side{
+        width: 100%;
+    }
+    .main_head_center{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .main_head_center span{
+        display: block;
+    }
+    
+    .main_head_center span:nth-child(1), .main_skills span{
+        background-color: black;
+        color: #fff;
+        display: inline;
+        padding: 0 30px;
+        font-weight: bold;
+    }
+
+    .main_head{
+        display: none;
+    }
+
+    .main_skill_left{
+        font-size: 70%;
+    }
+}
+
+/* Large screens and Desktops – 1025px — 1200px */
+@media screen and (min-width: 769px) and (max-width:1024px){
+    body{
+        font-size: 90%;
+        background-color: yellow;
+    }
+
+     
+    .left_side{
+        width: 100%;
+    }
+    .main_side{
+        width: 100%;
+    }
+    .main_head_center{
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .main_head_center span{
+        display: block;
+    }
+    
+    .main_head_center span:nth-child(1), .main_skills span{
+        background-color: black;
+        color: #fff;
+        display: inline;
+        padding: 0 30px;
+        font-weight: bold;
+    }
+
+    .main_head span{
+        font-size: 70px;
+        display: block;
+    }
+
+    .main_skill_left{
+        font-size: 70%;
+    }
 }

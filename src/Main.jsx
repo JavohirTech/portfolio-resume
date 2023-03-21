@@ -6,13 +6,25 @@ const Main = ()=>{
             <div className="asosiy">
                 <div className="left_side">
                     <img src={profile} width="100%" alt="" />
+                    <div className="main_head_center">
+                        <span className="name_pro">Javohir</span>
+                        <span className="surname_pro">G'ulomjonov</span>
+                    </div>
                     <div className="left_text">
-                    <h3>Profile</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nesciunt dolore qui dolores eius officiis necessitatibus tempore alias po dolorum quos minus quod mollitia saepe aut? Aspernatur et, quasi laudantium aperiam ullam, aut laboriosam id omnis beatae, voluptas provident quidem. Deserunt eligendi asperiores esse rem enim non ea totam maxime voluptatum numquam omnis corporis voluptates reiciendis reprehenderit magni provident, ab animi.</p>
+                    <h3>About myself</h3>
+                    <p>
+                        I am a Frontend developer with 2 years of experience, who is interested in new knowledge, happy to learn new things, and loves to share his knowledge with others.
+                        <br /><br />
+                        <b>Always use your maximum strength.</b>
+                    </p>
                     <hr />
 
                     <h3>Address</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non optio rerum quia impedit! Beatae, perspiciatis sint tempore tempora, ipsa aspernatur, dolore asperiores dicta molestias eum nemo at quidem illo libero!</p>
+                    <p>160501 <br />
+                        From <a href="https://en.wikipedia.org/wiki/Uzbekistan">Uzbekistan</a> | <br />
+                        Namangan region |
+                        Pop district
+                    </p>
                     <hr />
 
                     <h3>Contact</h3>
@@ -26,13 +38,38 @@ const Main = ()=>{
                     <div className="skills">
                         <div className="skill_name">
                             <label for="html">HTML</label>
-                            <progress id="html" value="32" max="100"> 32% </progress>
+                            <progress id="html" value="100" max="100"> 100% </progress>
                         </div>
                         <div className="skill_name">
                             <label for="css">CSS</label>
-                            <progress id="css" value="32" max="100"> 32% </progress>
+                            <progress id="css" value="100" max="100"> 100% </progress>
+                        </div>
+                        <div className="skill_name">
+                            <label for="js">JavaScript</label>
+                            <progress id="js" value="100" max="100"> 100% </progress>
+                        </div>
+                        <div className="skill_name">
+                            <label for="reactjs">ReactJS</label>
+                            <progress id="reactjs" value="100" max="100"> 100% </progress>
+                        </div>
+                        <div className="skill_name">
+                            <label for="figma">Figma</label>
+                            <progress id="figma" value="100" max="100"> 100% </progress>
                         </div>
                     </div>
+
+                    <h3>Language</h3>
+                    <div className="skills">
+                        <div className="skill_name">
+                            <label for="eng">English</label>
+                            <progress id="eng" value="60" max="100"> 60% </progress>
+                        </div>
+                        <div className="skill_name">
+                            <label for="uzb">Uzbek | Native |</label>
+                            <progress id="uzb" value="100" max="100"> 100% </progress>
+                        </div>
+                    </div>
+
 
                     </div>
                 </div>
@@ -47,35 +84,68 @@ const Main = ()=>{
 
                     <h2 className='main_title'>Education</h2>
                     <div className="main_skills">
-                        <span>2011-2016</span>
+                        <span>2017 - 2020</span>
                         <div className="main_skill_left">
-                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolores cumque fuga! Recusandae accusantium distinctio tenetur ea, alias aliquam architecto culpa facilis voluptatibus exercitationem sequi, cupiditate perspiciatis. Adipisci, iure sequi?</p>
+                            <h2>Direction of fine and applied arts</h2>
+                            <p>
+                                <i>School of Music and Art for Children and Teenagers No. 8. Pop district, Namangan region</i> <br />
+                                There I studied fine art and applied art, working with modern technologies in art.</p>
+                        </div>
+                    </div>
+
+                    <div className="main_skills">
+                        <span>2016 - 2020</span>
+                        <div className="main_skill_left">
+                            <h2>Mathematics and exact sciences</h2>
+                            <p>
+                                <i>State specialized boarding school No. 16, Pop district, Namangan region</i><br />
+                                I graduated from high school with excellent grades
+                            </p>
                         </div>
                     </div>
                     <div className="main_skills">
-                        <span>2011-2016</span>
+                        <span>2020 - Now</span>
                         <div className="main_skill_left">
-                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolores cumque fuga! Recusandae accusantium distinctio tenetur ea, alias aliquam architecto culpa facilis voluptatibus exercitationem sequi, cupiditate perspiciatis. Adipisci, iure sequi?</p>
-                        </div>
+                            <h2>Bachelor of Management</h2>
+                            <p><i>Namangan Institute of Engineering and Technology </i>Correspondence Education I have been studying at the Faculty of Management since 2020</p>
+                        </div> 
                     </div>
-                    <div className="main_skills">
-                        <span>2011-2016</span>
-                        <div className="main_skill_left">
-                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolores cumque fuga! Recusandae accusantium distinctio tenetur ea, alias aliquam architecto culpa facilis voluptatibus exercitationem sequi, cupiditate perspiciatis. Adipisci, iure sequi?</p>
-                        </div>
-                    </div>
+                    
+                    
 
                     <hr />  
                     <h2 className='main_title'>Experience</h2>
 
                     <div className="main_skills">
-                        <span>2011-2016</span>
+                        <span>2021 - 2023</span>
                         <div className="main_skill_left">
-                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolores cumque fuga! Recusandae accusantium distinctio tenetur ea, alias aliquam architecto culpa facilis voluptatibus exercitationem sequi, cupiditate perspiciatis. Adipisci, iure sequi?</p>
+                            <h2>Front-End Instructor | Full-Time</h2>
+                            <p>
+                                <i style={{color: 'grey'}}>IT-PARK UZBEKISTAN</i> <br /><br />
+                                <ul>
+                                    <li>Upgrade CSS skills</li>
+                                    <li>RWD</li>
+                                    <li>JavaScript</li>
+                                    <li>PHP <sup><small>Beginner</small></sup></li>
+                                    <li>MySQL <sup><small>Beginner</small></sup></li>
+                                </ul>
+                                </p>
+                        </div>
+                    </div>
+
+                    <div className="main_skills">
+                        <span>2021 - Now</span>
+                        <div className="main_skill_left">
+                            <h2>Front-End Developer | Freelancer</h2>
+                            <p>
+                                <i style={{color: 'grey'}}>Virtual Group</i> <br /><br />
+                                <ul>
+                                    <li>ReactJS</li>
+                                    <li>JavaScript</li>
+                                    <li>Figma</li>
+                                    <li>Git</li>
+                                </ul>
+                                </p>
                         </div>
                     </div>
 
@@ -83,11 +153,19 @@ const Main = ()=>{
                     <h2 className='main_title'>Other skills</h2>
 
                     <div className="main_skills">
-                        <span>2011-2016</span>
+                        <span>2021 - Now</span>
                         <div className="main_skill_left">
-                            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi dolores cumque fuga! Recusandae accusantium distinctio tenetur ea, alias aliquam architecto culpa facilis voluptatibus exercitationem sequi, cupiditate perspiciatis. Adipisci, iure sequi?</p>
-                        </div>
+                            <h2>I studied in my spare time</h2>
+                            <p><i>Namangan region, Pop district</i><br /> <br />
+                            <ul>
+                                    <li>Learning & Teaching</li>
+                                    <li>Hardware Computer Master</li>
+                                    <li>Management</li>
+                                    <li>Problem Solving</li>
+                                    <li>Team Work</li>
+                                </ul>
+                            </p>
+                        </div> 
                     </div>
 
 
